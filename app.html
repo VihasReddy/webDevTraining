@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Student App
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="app.css"/>
+    </head>
+    <body>
+        <div id="appTitle" class="p-10">
+            <h1>
+                Student MS
+            </h1>
+        </div>
+        <button id="addStudent" class="btn btn-secondary float-right m-3">
+            Add New Student
+        </button>
+        <table class="table mt-3">
+            <tr>
+                <th>Student id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Vihas</td>
+                <td>v@xyz.com</td>
+                <td>Hyd</td>
+                <td>Telangana</td>
+                <td>India</td>
+                <td><button class="btn btn-primary btn-sm m-2" id="edit">Edit</button><button class="btn btn-primary btn-sm" id="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mahantesh</td>
+                <td>m@xyz</td>
+                <td>Bengaluru</td>
+                <td>Karnataka</td>
+                <td>India</td>
+                <td><button class="btn btn-primary btn-sm m-2" class="m-2" id="edit">Edit</button><button class="btn btn-primary btn-sm" id="delete">Delete</button></td>
+        </table>
+    </body>
+
+
+</html>
